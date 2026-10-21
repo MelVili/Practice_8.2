@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1050</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Наземная станция: Телеметрия БПЛА</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow { background-color: #0d1117; }
+QLabel#lblTitle { color: #58a6ff; font-size: 16px; font-weight: bold; padding-bottom: 5px; }
+QLabel#lblStats {
+    background-color: #161b22; color: #c9d1d9;
+    border: 1px solid #30363d; border-radius: 8px;
+    padding: 12px; font-family: Consolas, monospace; font-size: 13px;
+}
+QPushButton {
+    background-color: #21262d; color: #c9d1d9;
+    border: 1px solid #30363d; border-radius: 6px;
+    padding: 10px; font-size: 13px; font-weight: bold;
+}
+QPushButton:hover { background-color: #30363d; border-color: #8b949e; }
+QPushButton:pressed { background-color: #161b22; }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1">
+    <property name="spacing"><number>16</number></property>
+    <property name="leftMargin"><number>16</number></property>
+    <property name="topMargin"><number>16</number></property>
+    <property name="rightMargin"><number>16</number></property>
+    <property name="bottomMargin"><number>16</number></property>
+    <item>
+     <layout class="QVBoxLayout" name="leftPanelLayout">
+      <property name="spacing"><number>12</number></property>
+      <item>
+       <widget class="QLabel" name="lblTitle">
+        <property name="text"><string>ПУЛЬТ ТЕЛЕМЕТРИИ</string></property>
+        <property name="alignment"><set>Qt::AlignCenter</set></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblStats">
+        <property name="minimumSize"><size><width>260</width><height>230</height></size></property>
+        <property name="text"><string>Ожидание данных...</string></property>
+        <property name="alignment"><set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnStartStop">
+        <property name="text"><string>Пауза телеметрии</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnClear">
+        <property name="text"><string>Сбросить историю</string></property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation"><enum>Qt::Vertical</enum></property>
+        <property name="sizeHint" stdset="0"><size><width>20</width><height>40</height></size></property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="chartsLayout">
+      <property name="spacing"><number>12</number></property>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

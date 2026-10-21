@@ -1,0 +1,9 @@
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/Practice_8.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/edit_cache.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/list_install_components.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/install.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/install/local.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/install/strip.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/Practice_8_autogen_timestamp_deps.dir
+C:/Users/milan/Documents/Practice_8/build/Qt6-11-0-MinGW64-MSYS2-Debug/CMakeFiles/Practice_8_autogen.dir
